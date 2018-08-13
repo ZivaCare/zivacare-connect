@@ -1,0 +1,40 @@
+{
+  "name": "zivacare-connect",
+  "version": "0.1.0",
+  "description": "An npm module that provides connectivity to the Ziva Care API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require babel-core/register"
+  },
+  "author": {
+    "name": "Stefan Cosma",
+    "email": "hello@stefancosma.xyz",
+    "url": "https://github.com/stefanbc"
+  },
+  "homepage": "https://zivacare.com",
+  "license": "MIT",
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "engines": {
+    "node": ">=8.11.3"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "request": "^2.87.0"
+  }
+}
